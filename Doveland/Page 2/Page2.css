@@ -1,0 +1,86 @@
+@media print{
+    .container{
+        zoom: 0.60;
+        margin: 0 20px!important;
+    }
+    @page {
+        /*size: auto;*/
+        size: portrait;
+        margin: 0;
+        /*margin: 0;*/
+    }
+}
+
+.contentContainer {
+    position: absolute!important;
+    z-index: 2!important;
+    right: 80px;
+    width: 1100px;
+    height: 100px;
+}
+.contentBackground {
+    position: absolute!important;
+    display: block!important;
+    z-index: -1;
+    opacity: 0.1!important;
+    top: -2305px;
+    right: 163px;
+    bottom: -629px;
+    left: -220px;
+}
+
+.page2header {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    margin-top: 114px;
+}
+
+.page2header td {
+    border: 2px;
+}
+
+.secondrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.secondrow td {
+    border: 2px solid black;
+}
+
+.thirdrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.thirdrow td {
+    border: 2px solid black;
+}
+
+.fourthrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    border-top: none;
+    line-height: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.fourthrow td {
+    border: 2px solid black;
+    border-top: none;
+}
+
+
+
+

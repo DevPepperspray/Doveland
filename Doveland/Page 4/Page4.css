@@ -1,0 +1,99 @@
+@media print{
+    .container{
+        zoom: 0.60;
+        margin: 0 20px!important;
+    }
+    @page {
+        /*size: auto;*/
+        size: portrait;
+        margin: 0;
+        /*margin: 0;*/
+    }
+}
+
+.image {
+    background: url(imageedit_1_4169147728.png)   bottom center no-repeat;
+    background-size: 613px;
+    z-index: 2;
+}
+
+/* .image + img {
+    content: "";
+    opacity: 0.5;
+        position: absolute;
+    z-index: -1;   
+  } */
+
+.secondrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.secondrow td {
+    border: 2px solid black;
+}
+
+.fourthrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    border-top: none;
+    line-height: 21px;
+}
+
+.fourthrow td {
+    border: 2px solid black;
+    border-top: none;
+}
+
+.row1 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.row1 td {
+    border: 2px solid black;
+}
+
+.thirdrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 45px;
+}
+
+.thirdrow td {
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.fifthrow {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.fifthrow td {
+    border: 2px solid black;
+    border-top: none;
+}
+
+.singlerow {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.singlerow td {
+    border: 2px solid black;
+    border-left: none;
+}
+
+
+
+
